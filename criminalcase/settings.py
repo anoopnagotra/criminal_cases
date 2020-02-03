@@ -33,6 +33,8 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'rest_framework',
+    'jet.dashboard',
+    'jet',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -176,3 +178,8 @@ EMAIL_USE_TLS = True
 SERVER_EMAIL = 'python.anoop@gmail.com'
 DEFAULT_FROM_EMAIL = 'Criminal Case Team <python.anoop@gmail.com>'
 FROM_EMAIL = 'Criminal <python.anoop@gmail.com>'
+
+
+JET_SIDE_MENU_COMPACT = True
+JET_CHANGE_FORM_SIBLING_LINKS = True
+JET_DEFAULT_THEME = 'default'
